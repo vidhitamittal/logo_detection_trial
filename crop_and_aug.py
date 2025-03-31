@@ -41,8 +41,8 @@ DATA_AUG_SCALES = [0.9, 1.1]
 DATA_AUG_ROT_MIN = -15
 DATA_AUG_ROT_MAX = 15
 
-TRAIN_DIR = 'flickr_logos_27_dataset'
-TRAIN_IMAGE_DIR = os.path.join(TRAIN_DIR, 'flickr_logos_27_dataset_images')
+TRAIN_DIR = 'trainingDir'
+TRAIN_IMAGE_DIR = os.path.join(TRAIN_DIR, 'logos')
 CROPPED_AUG_IMAGE_DIR = os.path.join(
     TRAIN_DIR, 'flickr_logos_27_dataset_cropped_augmented_images')
 ANNOT_FILE = 'flickr_logos_27_dataset_training_set_annotation.txt'
